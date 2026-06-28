@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Animated bouncing dots — mimics the Play Store install animation.
+    Each frame is a separate drawable with dots at different positions/sizes.
+    Duration per frame: 120ms → full cycle ~1.5s
+-->
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@drawable/dots_frame_1" android:duration="120"/>
+    <item android:drawable="@drawable/dots_frame_2" android:duration="120"/>
+    <item android:drawable="@drawable/dots_frame_3" android:duration="120"/>
+    <item android:drawable="@drawable/dots_frame_4" android:duration="120"/>
+    <item android:drawable="@drawable/dots_frame_5" android:duration="120"/>
+    <item android:drawable="@drawable/dots_frame_6" android:duration="120"/>
+    <item android:drawable="@drawable/dots_frame_7" android:duration="120"/>
+    <item android:drawable="@drawable/dots_frame_8" android:duration="120"/>
+    <item android:drawable="@drawable/dots_frame_9" android:duration="120"/>
+    <item android:drawable="@drawable/dots_frame_10" android:duration="120"/>
+    <item android:drawable="@drawable/dots_frame_11" android:duration="120"/>
+    <item android:drawable="@drawable/dots_frame_12" android:duration="120"/>
+</animation-list>

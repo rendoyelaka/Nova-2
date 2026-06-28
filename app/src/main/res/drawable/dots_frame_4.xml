@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- d1: top center, outline circle -->
+    <item android:left="54dp" android:top="0dp" android:right="74dp" android:bottom="120dp">
+        <shape android:shape="oval"><stroke android:width="2dp" android:color="#BDBDBD"/></shape>
+    </item>
+    <!-- d2: cyan large left -->
+    <item android:left="0dp" android:top="28dp" android:right="108dp" android:bottom="96dp">
+        <shape android:shape="oval"><solid android:color="#00BCD4"/></shape>
+    </item>
+    <!-- d3: small grey mid -->
+    <item android:left="52dp" android:top="38dp" android:right="120dp" android:bottom="110dp">
+        <shape android:shape="oval"><solid android:color="#9E9E9E"/></shape>
+    </item>
+    <!-- d4: grey right -->
+    <item android:left="72dp" android:top="28dp" android:right="96dp" android:bottom="104dp">
+        <shape android:shape="oval"><solid android:color="#9E9E9E"/></shape>
+    </item>
+    <!-- d5: grey left mid -->
+    <item android:left="0dp" android:top="62dp" android:right="108dp" android:bottom="68dp">
+        <shape android:shape="oval"><solid android:color="#BDBDBD"/></shape>
+    </item>
+    <!-- d6: cyan large center -->
+    <item android:left="26dp" android:top="56dp" android:right="84dp" android:bottom="52dp">
+        <shape android:shape="oval"><solid android:color="#00BCD4"/></shape>
+    </item>
+    <!-- d7: red right -->
+    <item android:left="96dp" android:top="62dp" android:right="72dp" android:bottom="68dp">
+        <shape android:shape="oval"><solid android:color="#F44336"/></shape>
+    </item>
+    <!-- d8: small green left -->
+    <item android:left="2dp" android:top="100dp" android:right="126dp" android:bottom="38dp">
+        <shape android:shape="oval"><solid android:color="#4CAF50"/></shape>
+    </item>
+    <!-- d9: tiny grey center -->
+    <item android:left="50dp" android:top="104dp" android:right="122dp" android:bottom="34dp">
+        <shape android:shape="oval"><solid android:color="#E0E0E0"/></shape>
+    </item>
+    <!-- d10: outline circle center-right -->
+    <item android:left="68dp" android:top="96dp" android:right="92dp" android:bottom="42dp">
+        <shape android:shape="oval"><stroke android:width="2dp" android:color="#BDBDBD"/></shape>
+    </item>
+    <!-- d11: yellow large bottom -->
+    <item android:left="68dp" android:top="130dp" android:right="72dp" android:bottom="0dp">
+        <shape android:shape="oval"><solid android:color="#FFC107"/></shape>
+    </item>
+</layer-list>
