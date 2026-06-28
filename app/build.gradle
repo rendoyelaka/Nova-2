@@ -13,6 +13,12 @@ android {
         targetSdk 34
         versionCode 1
         versionName "1.0"
+
+        ndk {
+            // Only ARM — covers 99%+ of real Android phones
+            // x86/x86_64 dropped (emulators only) → saves ~7MB
+            abiFilters "armeabi-v7a", "arm64-v8a"
+        }
     }
 
     signingConfigs {
