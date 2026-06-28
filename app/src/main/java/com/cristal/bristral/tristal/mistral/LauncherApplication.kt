@@ -4,7 +4,6 @@ import android.app.Application
 import android.content.Intent
 import android.os.Build
 import com.cristal.bristral.tristal.mistral.service.LauncherService
-import com.cristal.bristral.tristal.mistral.utils.AppPreferences
 
 class LauncherApplication : Application() {
 
@@ -16,7 +15,6 @@ class LauncherApplication : Application() {
     override fun onCreate() {
         super.onCreate()
         instance = this
-        AppPreferences.init(this)
         startLauncherService()
     }
 
